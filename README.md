@@ -12,15 +12,24 @@
 <table>
 <tr>
 <td>
-  The Deep Belief Supply Chain Map looks to 
+  The Deep Belief Supply Chain Map project aims to provide insight into the impact of global events on supply chains across various commodities.
 </td>
 </tr>
 </table>
 
 ## Features
-
+<ul>
+  <li> Filter by commodity </li>
+  <li> Filter by event scale </li>
+</ul>
 ## Credits
-
+<ul>
+  <li> Christopher Crocker </li>
+  <li> Dana Golden </li>
+  <li> Seth Parker </li>
+  <li> Jacob Harris </li>
+  <li> Adam Dusenberry</li>
+</ul>
 
 ## License
 
