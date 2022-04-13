@@ -24,13 +24,13 @@ def importData(EventFile='events.csv',SupplyFile='sc.csv',SeverityValue=1.65,rad
    LowTrade['route_id']=IndexGrouped
    SupplyWithDummies['Below95']=SupplyWithDummies.set_index('route_id').subtract(LowTrade.set_index('IndexGrouped'))
    SupplyWithDummies['LowTrade'] = 1 * (SupplyWithDummies['Below95']< 0)
-   CurrentYearSupply=SupplyWithDummies[SupplyWithDummies['year']==Currentyear]
+   CurrentYearSupply=SupplyWithDummies[SupplyWithDummies['period']==Currentyear]
    CurrentYearRoutes=CurrentYearSupply['route_ID','route_points']
    CurrentYearRoutes['maxGood']=CurrentYearSupply[col_list].idxmax(axis=1)
    sumofSeverity=[]
    SumofConflictDuration=[]
    for index, row in SupplyWithDummies.iterrows():
-    year=row['year']
+    year=row['period']
     latitude=row['routeBeginLat']
     longitude=row['routeBeginLong']
     rows=EventDataframe[(math.sqrt((EventDataframe['latitude']-row['routeBeginLat'])**2+(EventDataframe['longitude']-row['routeBeginLong']))<= radius) &EventDataframe['year']==year]
@@ -41,10 +41,10 @@ def importData(EventFile='events.csv',SupplyFile='sc.csv',SeverityValue=1.65,rad
    SupplyWithDummies['SumofConflictDuration']=SumofConflictDuration
    combinedyData=SupplyWithDummies['LowTrade']
    combinedXData=SupplyWithDummies['sumofSeverity','SumofConflictDuration','year','routeBeginLat','routeBeginLong']
-   EarlierYearX=combinedXData[combinedXData['year']<Currentyear].to_numpy()
-   CurrentYearX=combinedXData[combinedXData['year']==Currentyear].to_numpy()
-   EarlierYearY=combinedyData[combinedyData['year']<Currentyear].to_numpy()
-   CurrentYearY=combinedyData[combinedyData['year']==Currentyear].to_numpy()
+   EarlierYearX=combinedXData[combinedXData['period']<Currentyear].to_numpy()
+   CurrentYearX=combinedXData[combinedXData['period']==Currentyear].to_numpy()
+   EarlierYearY=combinedyData[combinedyData['period']<Currentyear].to_numpy()
+   CurrentYearY=combinedyData[combinedyData['period']==Currentyear].to_numpy()
    return EarlierYearX,CurrentYearX,EarlierYearY,CurrentYearY,CurrentYearRoutes
 
 EarlierYearX,CurrentYearX,EarlierYearY,CurrentYearY,CurrentYearRoutes=importData()
