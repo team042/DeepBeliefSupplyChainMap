@@ -119,7 +119,7 @@ for epoch in range(10):
         loss.backward()
         train_op.step()
 
-def MatchToRoutes(predictedData=v1,routes=CurrentYearRoutes,goodLookupFile):
+def MatchToRoutes(goodLookupFile,predictedData=v1,routes=CurrentYearRoutes):
     import numpy as np
     import pandas 
     GoodsDataFrame=pd.read_csv(goodLookupFile)
@@ -127,3 +127,4 @@ def MatchToRoutes(predictedData=v1,routes=CurrentYearRoutes,goodLookupFile):
     PredictedHarmedRoutes=CurrentYearRoutes[mask]
     GoodsandHarm=pd.concat([PredictedHarmedRoutes, GoodsDataFrame],on='product_code', axis=1, join="left")
     return GoodsandHarm
+MatchToRoutes(predictedData=v1,routes=CurrentYearRoutes,goodLookupFile='goods.csv')
