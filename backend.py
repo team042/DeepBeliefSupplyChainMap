@@ -8,8 +8,8 @@ def get_events():
     return events
   
 import os
-os.chdir("C:/Users/bnhas/OneDrive/Desktop/Classes spring 2022/OMS Analytics/Data and Visual Analytics/Project/")
-def importData(EventFile='events.csv',SupplyFile='sc.csv',SeverityValue=1.65,radius=2):
+# os.chdir("C:/Users/bnhas/OneDrive/Desktop/Classes spring 2022/OMS Analytics/Data and Visual Analytics/Project/")
+def importData(EventFile='events.csv',SupplyFile='sc_data_2019.csv',SeverityValue=1.65,radius=2):
    import pandas as pd
    import numpy as np
    from datetime import date
