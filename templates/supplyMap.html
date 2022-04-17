@@ -3,15 +3,26 @@
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <!-- sourcing add-ons for jquery-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </head>
 <body>
-    <form method="post" action=".">
-        <label><p>Event Scale Minimum</p></label>
+    <form method="post" action="." id ="filters">
+        <label>Event Scale Minimum</label>
         <input name="scaleMin">
+        
+        <p>
+            <label for="amount"> Test:</label>
+            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+        </p>
+        <div id ='slider'></div>
 
-        <label><p>Commodity</p></label>
+        <label>Commodity</label>
         <input name="commodity">
 
+        <label>Value</label>
+        <input name="value">
         <input type="submit" value="Update Filters" id="button">
     </form>
     <div id="map"></div>
@@ -29,6 +40,7 @@
         });
         
         {{markers|safe}}
+
     </script>
 </body>
 </html>
