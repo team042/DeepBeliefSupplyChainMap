@@ -23,7 +23,7 @@ ALiR - Palipehutu-FNL,-3.3065,29.4168,15,0,85,Non-State Violence,2/1/2000,2/12/2
 "ALiR, CNDD-FDD , Mayi Mayi - RCD",-3.683222,28.6730556,80,44,0,Non-State Violence,1/1/1999,10/17/2001,DR Congo (Zaire),Africa,1020,4833.263348
 "ALiR, Mayi Mayi - RCD",-1.771111,29.061111,13,44,0,Non-State Violence,9/14/1998,9/5/2000,DR Congo (Zaire),Africa,722,112.9784036
 AMB - Civilians,32.00646783,35.11954063,0,163,1,One-Sided Violence,12/31/2000,8/13/2006,Israel,Middle East,2051,310.0798799
-ANC - 'Greens'  - ANC - 'Reds' ,-29.855922,31.02606525,0,0,30,Non-State Violence,1/1/1993,11/17/1993,South Africa,Africa,320,0.090499473
+ANC - Greens  - ANC - Reds ,-29.855922,31.02606525,0,0,30,Non-State Violence,1/1/1993,11/17/1993,South Africa,Africa,320,0.090499473
 ANC - Civilians,-27.33404122,28.62971815,0,92,0,One-Sided Violence,1/1/1990,12/18/1993,South Africa,Africa,1447,13088.14139
 "APCLS - APCLS-R, NDC-R",-1.267587167,28.66950917,17,18,0,Non-State Violence,1/14/2018,12/13/2018,DR Congo (Zaire),Africa,333,436.9650495
 APCLS - M23,-1.216054,28.744677,0,0,30,Non-State Violence,10/25/2012,10/25/2012,DR Congo (Zaire),Africa,0,1
@@ -34,7 +34,7 @@ APCLS - NDC-R,-1.270173846,28.81591423,85,33,2,Non-State Violence,5/29/2018,7/15
 AQAP - Forces of Hadi,14.44198003,46.40639953,1410,61,46,Non-State Violence,1/26/2015,12/18/2020,Yemen (North Yemen),Middle East,2153,5608.908702
 AQAP - IS,14.52913336,44.86539154,116,0,3,Non-State Violence,7/10/2018,2/3/2020,Yemen (North Yemen),Middle East,573,293.8332919
 AQIM - Civilians,33.99874124,3.201283293,0,291,28,One-Sided Violence,3/7/2000,1/16/2019,Algeria,Africa,6889,259348.6637
-"AQIM, Jama'atu Ahlis Sunna Lidda'awati wal-Jihad, MUJAO - CMA",16.271667,-0.044722,14,0,12,Non-State Violence,6/27/2012,6/27/2012,Mali,Africa,0,1
+"AQIM, Jamaatu Ahlis Sunna Liddaawati wal-Jihad, MUJAO - CMA",16.271667,-0.044722,14,0,12,Non-State Violence,6/27/2012,6/27/2012,Mali,Africa,0,1
 "ARLA, FIAA, FPLA - MPA",20,-3,0,0,30,Non-State Violence,6/10/1994,6/12/1994,Mali,Africa,2,1
 ARPCT - ARS/UIC,2.081579263,45.36754416,107,99,356,Non-State Violence,2/18/2006,8/30/2006,Somalia,Africa,193,30.55834058
 ARSA - Civilians,20.89349935,92.44528224,0,91,0,One-Sided Violence,12/21/2016,7/27/2018,Myanmar (Burma),Asia,583,3244.778317
@@ -53,7 +53,7 @@ Abdulleh-Galmaha subclan of Abgal clan (Hawiye) - Kabaloh subclan of Abgal clan 
 Abgal clan (Hawiye) - Galgalo,2.066667,45.366667,0,0,50,Non-State Violence,11/28/1990,12/4/1990,Somalia,Africa,6,0
 Abgal clan (Hawiye) - Garre subclan of Digil clan (Digil-Mirifle),2.15,45.116667,0,0,25,Non-State Violence,12/1/2001,12/2/2001,Somalia,Africa,1,0
 Abgal clan (Hawiye) - Xawaadle clan (Hawiye),3.440852889,45.80068644,0,0,31,Non-State Violence,1/9/2008,12/26/2008,Somalia,Africa,352,1992.276001
-Abtisame subclan of Galje'el clan (Hawiye) - Afi subclan of Galje'el clan (Hawiye),4.735833,45.203611,0,0,34,Non-State Violence,8/22/2001,2/4/2004,Somalia,Africa,896,0
+Abtisame subclan of Galjeel clan (Hawiye) - Afi subclan of Galjeel clan (Hawiye),4.735833,45.203611,0,0,34,Non-State Violence,8/22/2001,2/4/2004,Somalia,Africa,896,0
 Abudu  - Andani,9.433333,-0.016667,0,0,36,Non-State Violence,3/25/2002,3/27/2002,Ghana,Africa,2,1
 Abugbe (Agatu) - Agbaduma (Agatu),7.8677,8.0949,25,0,0,Non-State Violence,6/30/2019,6/30/2019,Nigeria,Africa,0,1
 Adoni - Ogoni,4.737405,6.98065975,97,0,988,Non-State Violence,7/9/1993,9/20/1993,Nigeria,Africa,73,203.6537134
@@ -106,7 +106,7 @@ Al-Shabaab - Aaro Aaro,3.9825795,43.85375675,23,0,19,Non-State Violence,8/9/2017
 Al-Shabaab - Civilians,2.319350987,44.0539953,0,1442,79,One-Sided Violence,2/5/2008,12/30/2020,Somalia,Africa,4712,39069.8405
 Al-Shabaab - Hizbul Islam,1.214375793,43.35255866,72,28,109,Non-State Violence,10/1/2009,12/18/2010,Somalia,Africa,443,1272.452059
 Al-Shabaab - IS,6.745815625,46.27067375,12,2,35,Non-State Violence,10/12/2018,3/1/2019,Somalia,Africa,140,3403.013451
-Al-Shabaab - Ma'awisley,3.79093588,45.59267384,56,0,20,Non-State Violence,9/29/2018,11/2/2020,Somalia,Africa,765,3487.505142
+Al-Shabaab - Maawisley,3.79093588,45.59267384,56,0,20,Non-State Violence,9/29/2018,11/2/2020,Somalia,Africa,765,3487.505142
 Al-Shabaab - ONLF,2.4848982,42.787922,44,0,2,Non-State Violence,12/31/2007,9/21/2015,Ethiopia,Africa,2821,27465.21679
 Al-Shabaab - SVA,4.8390515,45.18894688,18,2,22,Non-State Violence,1/26/2011,3/2/2012,Somalia,Africa,401,29.45147588
 Al-Umma - Civilians,10.979356,76.95058,0,58,0,One-Sided Violence,2/14/1998,2/14/1998,India,Asia,0,1
@@ -170,7 +170,7 @@ Awlad Suleiman  - Qadhadhfa,27.037662,14.428325,5,0,34,Non-State Violence,1/2/20
 Awlad Suleiman  - Toubou ,27.037662,14.428325,7,0,55,Non-State Violence,1/10/2014,4/2/2018,Libya,Africa,1543,0
 Awlad Zeid - Zaghawa,14.158784,22.702002,75,0,21,Non-State Violence,5/30/2001,4/8/2018,Sudan,Africa,6157,2595.475059
 Ayiel Dinka - Waat Dinka,7.01439,29.25039,0,0,44,Non-State Violence,8/5/2017,8/7/2017,South Sudan,Africa,2,1
-Ayr subclan of Habar Gidir clan (Hawiye) - Sa'ad subclan of Habar Gidir clan (Hawiye),2.0585845,45.28110775,0,8,51,Non-State Violence,8/29/1997,7/16/2001,Somalia,Africa,1417,69.16726429
+Ayr subclan of Habar Gidir clan (Hawiye) - Saad subclan of Habar Gidir clan (Hawiye),2.0585845,45.28110775,0,8,51,Non-State Violence,8/29/1997,7/16/2001,Somalia,Africa,1417,69.16726429
 Azara - Tiv,8.366667,8.766667,0,0,200,Non-State Violence,6/12/2001,6/25/2001,Nigeria,Africa,13,1
 BCP - PBCP,23.52447954,89.02824646,23,0,12,Non-State Violence,1/17/1993,11/14/2006,Bangladesh,Asia,5049,1343.696417
 BIFM - MILF,6.991594077,124.4804478,45,0,9,Non-State Violence,8/9/2011,5/3/2015,Philippines,Asia,1363,86.58593069
@@ -211,8 +211,8 @@ Beni Halba Baggara - Gimir,11.75,24.7222225,111,0,66,Non-State Violence,3/1/2013
 "Beni Halba Baggara, Salamat Baggara - Fur",12.30416675,24.8125,1500,0,500,Non-State Violence,1/1/1989,6/22/1989,Sudan,Africa,172,1816.603571
 Beni Hussein - Rizeigat Abbala,14.1711605,23.886859,252,0,135,Non-State Violence,1/5/2013,8/28/2014,Sudan,Africa,600,8080.314258
 Bete - Senufo,6.34605,-5.90008,20,2,16,Non-State Violence,9/1/2002,12/23/2004,Ivory Coast,Africa,844,0
-Bi'idyahan subclan of Majerteen clan (Darod) - Ismail subclan of Makahil clan (Darod),6,45.166667,280,0,0,Non-State Violence,1/1/2003,12/31/2003,Ethiopia,Africa,364,1
-Biide subclan of Habar Jeclo (Isaaq) - Sa'ad subclan of Habar Yonis (Isaaq),10.24516467,47.37720433,0,0,64,Non-State Violence,1/21/2018,11/26/2019,Somalia,Africa,674,1195.307759
+Biidyahan subclan of Majerteen clan (Darod) - Ismail subclan of Makahil clan (Darod),6,45.166667,280,0,0,Non-State Violence,1/1/2003,12/31/2003,Ethiopia,Africa,364,1
+Biide subclan of Habar Jeclo (Isaaq) - Saad subclan of Habar Yonis (Isaaq),10.24516467,47.37720433,0,0,64,Non-State Violence,1/21/2018,11/26/2019,Somalia,Africa,674,1195.307759
 Bini - Urhobo,5.9,5.733333,0,0,50,Non-State Violence,8/19/1998,8/19/1998,Nigeria,Africa,0,1
 Birom - Fulani,9.586116375,8.856493813,858,0,227,Non-State Violence,5/26/2002,10/5/2020,Nigeria,Africa,6707,204.0860275
 "Birom - Fulani, Hausa",9.740475429,8.819048571,333,0,42,Non-State Violence,12/30/2001,1/20/2010,Nigeria,Africa,2943,15.72245584
@@ -307,7 +307,7 @@ Comando Vermelho - FDN,-2.94944,-60.025,0,1,164,Non-State Violence,1/1/2020,2/13
 Comando Vermelho - GDE,-3.962464224,-38.75705497,104,20,8098,Non-State Violence,1/1/2017,12/29/2020,Brazil,Americas,1458,3688.225369
 Comando Vermelho - Terceiro Comando,-22.90251356,-43.20607685,52,34,299,Non-State Violence,6/19/1993,9/10/2012,Brazil,Americas,7023,1.15973109
 Comando Vermelho - Terceiro Comando Puro,-22.89596467,-43.29779667,0,7,63,Non-State Violence,7/14/2004,8/2/2018,Brazil,Americas,5132,474.1503917
-Comités locaux de vigilance - Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,11.06064185,13.99343504,69,1,5,Non-State Violence,12/22/2016,11/22/2020,Cameroon,Africa,1431,605.1193925
+Comités locaux de vigilance - Jamaatu Ahlis Sunna Liddaawati wal-Jihad,11.06064185,13.99343504,69,1,5,Non-State Violence,12/22/2016,11/22/2020,Cameroon,Africa,1431,605.1193925
 Copts (Egypt) - Muslims (Egypt),28.77791263,31.16465405,33,0,26,Non-State Violence,8/13/1995,7/17/2016,Egypt,Middle East,7644,7229.527774
 Croatian Republic of Bosnia-Herzegovina - Civilians,44.06099017,17.7534663,0,174,0,One-Sided Violence,3/26/1992,10/10/1995,Serbia (Yugoslavia),Europe,1293,1026.402259
 DHD - BW - Civilians,26.58965386,94.14674471,0,61,0,One-Sided Violence,6/4/2007,3/28/2009,India,Asia,663,516.0110242
@@ -316,7 +316,7 @@ DKBA - KNU,18.21525057,98.03583808,125,12,96,Non-State Violence,12/1/1994,10/10/
 DPF - Forces of the House of Representatives,32.74764331,22.62928862,334,43,38,Non-State Violence,5/15/2018,2/12/2019,Libya,Africa,273,271.1595684
 DPF - IS,32.767041,22.636686,154,11,33,Non-State Violence,6/9/2015,4/23/2016,Libya,Africa,319,0
 DSA  - USC/SNA,1.816666333,44.583333,0,0,35,Non-State Violence,7/25/1999,10/4/1999,Somalia,Africa,71,89.86446763
-Da'ud subclan of Abgal clan (Hawiye) - Warsangeli subclan of Abgal clan (Hawiye),2.066667,45.366667,7,10,115,Non-State Violence,1/21/2004,9/22/2004,Somalia,Africa,245,0
+Daud subclan of Abgal clan (Hawiye) - Warsangeli subclan of Abgal clan (Hawiye),2.066667,45.366667,7,10,115,Non-State Violence,1/21/2004,9/22/2004,Somalia,Africa,245,0
 Dabare subclan of Digil clan (Digil-Mirifle) - Luway subclan of Mirifle clan (Digil-Mirifle),2.712276,43.54125375,0,0,47,Non-State Violence,5/30/2004,12/16/2004,Somalia,Africa,200,143.8178899
 Dadjo - Mouro,11.8052085,21.348792,0,0,65,Non-State Violence,8/8/2019,8/9/2019,Chad,Africa,1,7.43E-10
 "Dagomba, Gonja, Nanumba - Konkomba",9.126968167,-0.393888889,440,0,1721,Non-State Violence,1/1/1993,4/23/1995,Ghana,Africa,842,121.015435
@@ -346,7 +346,7 @@ Dimasa  - Zeme Naga,25.64594417,93.46318804,52,15,3,Non-State Violence,3/19/2009
 Dinka  - Nuer,8.179674217,30.68119657,276,0,322,Non-State Violence,6/1/1996,9/22/2019,Kenya,Africa,8513,47583.999
 Dioula - Guéré,6.780370667,-7.383981667,5,0,30,Non-State Violence,1/5/2005,6/6/2005,Ivory Coast,Africa,152,22.73121697
 Dir clan  - Marehan subclan (Darod),5.6871668,46.6836668,10,0,111,Non-State Violence,2/19/2004,3/20/2004,Somalia,Africa,30,174.6807661
-Dir clan  - Sa'ad subclan of Habar Gidir clan (Hawiye),6.628907333,48.36295533,0,0,55,Non-State Violence,12/5/2019,5/19/2020,Somalia,Africa,166,684.0174472
+Dir clan  - Saad subclan of Habar Gidir clan (Hawiye),6.628907333,48.36295533,0,0,55,Non-State Violence,12/5/2019,5/19/2020,Somalia,Africa,166,684.0174472
 Dizi   - Suri,6.49593864,35.69943212,227,0,0,Non-State Violence,1/1/1991,4/30/2012,Ethiopia,Africa,7790,979.9795024
 Dodoth - Jie,3.477535,34.02092593,190,37,8,Non-State Violence,3/19/2000,11/3/2009,Uganda,Africa,3516,125.8796997
 "Dodoth - Jie, Matheniko Karimojong",3.58333,34,33,0,0,Non-State Violence,7/21/2000,7/22/2000,Uganda,Africa,1,1
@@ -420,7 +420,7 @@ Forces of Abdirizak Bihi - Forces of Ahmed Sheikh Buraleh,3.929306,41.874525,0,8
 Forces of Abdul Rahman Khan  - Forces of Amanullah,33.352482,65.59305,18,0,7,Non-State Violence,8/13/2003,8/13/2003,Afghanistan,Asia,0,1
 Forces of Abdullahi Yusuf - Forces of Jama Ali Jama,9.175674714,49.089008,40,0,41,Non-State Violence,11/21/2001,12/27/2002,Somalia,Africa,401,1339.499552
 Forces of Abdullahi Yusuf - Forces of Yussuf Hajji Nur,11.284722,49.1825,0,0,42,Non-State Violence,8/5/2001,8/6/2001,Somalia,Africa,1,1
-Forces of Abdurahman Ahmed Ali 'Tur' - Republic of Somaliland,9.505378917,44.59494517,139,80,256,Non-State Violence,10/15/1994,7/7/1996,Somalia,Africa,631,22646.24207
+Forces of Abdurahman Ahmed Ali Tur - Republic of Somaliland,9.505378917,44.59494517,139,80,256,Non-State Violence,10/15/1994,7/7/1996,Somalia,Africa,631,22646.24207
 Forces of Agala - Forces of Edu,4.902485,6.767295,2,0,60,Non-State Violence,6/1/2005,12/31/2005,Nigeria,Africa,213,6.55E-08
 Forces of Amanullah Khan  - Forces of Arbab Basir,33.2425,62.1858,1,0,35,Non-State Violence,10/7/2006,10/22/2006,Afghanistan,Asia,15,0
 Forces of Amanullah Khan  - Forces of Ismail Khan ,33.35731875,62.10345525,79,30,44,Non-State Violence,7/22/2002,8/16/2004,Afghanistan,Asia,756,1062.160559
@@ -467,11 +467,11 @@ GIA - Civilians,35.69964552,2.569054136,0,1465,0,One-Sided Violence,9/21/1993,12
 GIA - El Ahd Battalion - GIA - El Khadra Battalion,34.7499995,-0.9583335,0,0,62,Non-State Violence,4/26/1998,4/26/1998,Algeria,Africa,0,0.00064036
 GIA - El Forkane - GIA - El Khadra Battalion,34.465833,-1.571389,0,0,56,Non-State Violence,6/9/1998,6/9/1998,Algeria,Africa,0,1
 GICM - Civilians,40.412752,-3.707721,0,191,0,One-Sided Violence,3/11/2004,3/11/2004,Spain,Europe,0,1
-Gaadsan subclan of Biimaal clan (Dir) - Ma'alin Weyne subclan of Mirifle clan (Digil-Mirifle),2.772965286,41.981554,0,0,40,Non-State Violence,4/28/2008,12/5/2008,Somalia,Africa,221,855.2438353
+Gaadsan subclan of Biimaal clan (Dir) - Maalin Weyne subclan of Mirifle clan (Digil-Mirifle),2.772965286,41.981554,0,0,40,Non-State Violence,4/28/2008,12/5/2008,Somalia,Africa,221,855.2438353
 Gabra - Guji,4.883333,38.083333,0,0,43,Non-State Violence,4/3/2005,4/29/2005,Ethiopia,Africa,26,0
 Gak Dinka - Manuer Dinka,7.418304,29.724586,43,0,59,Non-State Violence,2/12/2018,3/29/2020,South Sudan,Africa,776,570.1763278
-Galje'el clan (Hawiye) - Jejele subclan of Jibedi clan (Hawiye),4.735833,45.203611,0,0,36,Non-State Violence,6/6/2005,6/9/2005,Somalia,Africa,3,0
-Galje'el clan (Hawiye) - Xawaadle clan (Hawiye),3.198703778,45.71376567,20,4,38,Non-State Violence,8/8/2000,9/24/2000,Somalia,Africa,47,2046.262213
+Galjeel clan (Hawiye) - Jejele subclan of Jibedi clan (Hawiye),4.735833,45.203611,0,0,36,Non-State Violence,6/6/2005,6/9/2005,Somalia,Africa,3,0
+Galjeel clan (Hawiye) - Xawaadle clan (Hawiye),3.198703778,45.71376567,20,4,38,Non-State Violence,8/8/2000,9/24/2000,Somalia,Africa,47,2046.262213
 Gamai - Pan,8.76078,9.16142,0,0,25,Non-State Violence,4/10/2006,4/13/2006,Nigeria,Africa,3,1
 Ganda Iso - CMA,17.15793467,-0.479946,31,0,0,Non-State Violence,3/10/2012,3/25/2012,Mali,Africa,15,10598.5189
 Garcia clan - Pena Rojas clan,17.86124,-100.07491,0,0,27,Non-State Violence,2/6/1993,2/9/1993,Mexico,Americas,3,7.02E-09
@@ -494,7 +494,7 @@ Government of Afghanistan - Hizb-i Islami-yi Afghanistan,34.46808543,69.06006967
 Government of Afghanistan - Hizb-i Islami-yi Afghanistan - Khalis faction,33.87436383,69.56542825,2936,216,2871,State-Based Violence,1/1/1989,4/3/1992,Afghanistan,Asia,1188,10095.97314
 Government of Afghanistan - Hizb-i Wahdat,34.49410111,68.75074601,116,141,1004,State-Based Violence,1/1/1989,10/16/1995,Afghanistan,Asia,2479,7500.503052
 Government of Afghanistan - IS,34.24070644,70.11209433,8968,547,328,State-Based Violence,2/9/2015,12/31/2020,Afghanistan,Asia,2152,11210.38416
-Government of Afghanistan - Jam'iyyat-i Islami-yi Afghanistan,34.88398099,68.26586036,879,133,1848,State-Based Violence,1/7/1989,10/10/1996,Afghanistan,Asia,2833,20346.43772
+Government of Afghanistan - Jamiyyat-i Islami-yi Afghanistan,34.88398099,68.26586036,879,133,1848,State-Based Violence,1/7/1989,10/10/1996,Afghanistan,Asia,2833,20346.43772
 Government of Afghanistan - Junbish-i Milli-yi Islami,35.26590456,68.05590904,630,133,8270,State-Based Violence,3/8/1993,12/18/1995,Afghanistan,Asia,1015,5310.711011
 Government of Afghanistan - Mahaz-i Milli-yi Islami-yi Afghanistan ,34.499112,69.886222,30,0,0,State-Based Violence,2/19/1989,3/5/1989,Afghanistan,Asia,14,0
 Government of Afghanistan - Military faction (forces of Shahnawaz Tanay),34.531094,69.162796,13,95,0,State-Based Violence,3/6/1990,3/7/1990,Afghanistan,Asia,1,0
@@ -505,7 +505,7 @@ Government of Algeria - AQIM,35.80354753,3.852132665,5838,159,157,State-Based Vi
 Government of Algeria - GIA,35.6350574,2.973175614,10090,64,84,State-Based Violence,2/10/1992,12/5/2004,Algeria,Africa,4682,28023.02513
 Government of Algeria - IS,34.19607188,3.958131438,54,0,0,State-Based Violence,12/5/2014,2/9/2020,Algeria,Africa,1892,103456.124
 Government of Algeria - MUJAO,24.77809557,1.923809143,46,1,0,State-Based Violence,3/3/2012,6/12/2013,Algeria,Africa,466,46367.46148
-Government of Algeria - Takfir wa'l Hijra,35.5537989,4.0159522,41,1,1,State-Based Violence,12/20/1990,10/29/1992,Algeria,Africa,679,8541.071376
+Government of Algeria - Takfir wal Hijra,35.5537989,4.0159522,41,1,1,State-Based Violence,12/20/1990,10/29/1992,Algeria,Africa,679,8541.071376
 Government of Angola - Civilians,-7.233577992,13.92229772,0,224,1,One-Sided Violence,2/1/1989,11/11/2020,Angola,Africa,11606,40240.20178
 Government of Angola - FLEC-FAC,-4.910811735,12.57918903,88,34,200,State-Based Violence,8/4/1989,7/26/2020,Angola,Africa,11314,725.9703634
 Government of Angola - FLEC-FAC-TN,-4.974034573,12.46270817,51,2,54,State-Based Violence,11/8/2010,11/10/2020,Angola,Africa,3655,445.4746272
@@ -552,7 +552,7 @@ Government of Cameroon - Ambazonia insurgents,5.647746104,9.947454751,1115,218,4
 Government of Cameroon - Civilians,5.756537351,10.10067512,0,460,4,One-Sided Violence,5/26/1990,12/26/2020,Cameroon,Africa,11172,15072.64135
 Government of Cameroon - Government of Nigeria,4.588896,8.598811111,68,2,0,State-Based Violence,2/18/1994,6/17/2005,Cameroon,Africa,4137,1.630876931
 Government of Cameroon - IS,11.78298851,14.30804916,519,90,56,State-Based Violence,3/19/2015,7/28/2020,Cameroon,Africa,1958,282.4553207
-Government of Cameroon - Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,11.15828361,14.07535294,724,12,144,State-Based Violence,1/12/2015,12/16/2020,Cameroon,Africa,2165,834.1625685
+Government of Cameroon - Jamaatu Ahlis Sunna Liddaawati wal-Jihad,11.15828361,14.07535294,724,12,144,State-Based Violence,1/12/2015,12/16/2020,Cameroon,Africa,2165,834.1625685
 Government of Central African Republic - CPC,5.478960625,18.6400095,18,12,1,State-Based Violence,12/15/2020,12/28/2020,Central African Republic,Africa,13,7077.966449
 Government of Central African Republic - CPJP,9.055576167,21.51233496,51,12,34,State-Based Violence,3/20/2009,4/10/2011,Central African Republic,Africa,751,1880.486272
 Government of Central African Republic - Civilians,6.155622006,18.67223383,0,1669,39,One-Sided Violence,8/8/1991,8/14/2020,Central African Republic,Africa,10599,9626.681744
@@ -624,10 +624,10 @@ Government of Djibouti - Government of Eritrea,12.10625,43.0683335,34,0,1,State-
 Government of Ecuador - Government of Peru,-3.585699346,-78.18175046,99,0,0,State-Based Violence,1/26/1995,7/1/1995,Peru,Americas,156,674.4588501
 Government of Egypt - Ansar Bayt al-Maqdis,30.43673808,33.35997792,183,1,0,State-Based Violence,3/11/2014,10/24/2014,Egypt,Middle East,227,17326.12448
 Government of Egypt - Civilians,28.5151662,31.4176548,0,14,36,One-Sided Violence,1/22/1990,9/30/2020,Egypt,Middle East,11209,7338.533919
-Government of Egypt - Harakit Sawa'id Misr,29.83944265,30.9974035,137,0,0,State-Based Violence,10/8/2016,9/24/2019,Egypt,Middle East,1081,14356.76853
+Government of Egypt - Harakit Sawaid Misr,29.83944265,30.9974035,137,0,0,State-Based Violence,10/8/2016,9/24/2019,Egypt,Middle East,1081,14356.76853
 Government of Egypt - IS,30.79158296,33.60147524,2795,117,10,State-Based Violence,11/16/2014,12/30/2020,Egypt,Middle East,2236,7698.679398
-Government of Egypt - Jama'at Ansar al-Islam,28.1633095,29.0562495,48,0,0,State-Based Violence,10/20/2017,10/31/2017,Egypt,Middle East,11,8566.283134
-Government of Egypt - al-Gama'a al-Islamiyya,27.57176072,31.16232002,589,39,6,State-Based Violence,8/23/1992,11/30/2000,Egypt,Middle East,3021,22275.42344
+Government of Egypt - Jamaat Ansar al-Islam,28.1633095,29.0562495,48,0,0,State-Based Violence,10/20/2017,10/31/2017,Egypt,Middle East,11,8566.283134
+Government of Egypt - al-Gamaa al-Islamiyya,27.57176072,31.16232002,589,39,6,State-Based Violence,8/23/1992,11/30/2000,Egypt,Middle East,3021,22275.42344
 Government of El Salvador - FMLN,13.80420183,-88.8467112,5206,116,543,State-Based Violence,1/1/1989,1/6/1992,El Salvador,Americas,1100,446.0161197
 Government of Eritrea - Civilians,14.1547537,39.3894573,0,1204,0,One-Sided Violence,5/13/1998,12/29/2020,Ethiopia,Africa,8266,18919.13175
 Government of Eritrea - EIJM - AS,15.33804348,37.75667874,136,0,12,State-Based Violence,12/16/1993,8/9/2003,Eritrea,Africa,3523,1368.414063
@@ -778,7 +778,7 @@ Government of Myanmar (Burma) - ARSA,20.1897583,93.10699181,113,5,370,State-Base
 Government of Myanmar (Burma) - BMA,16.25,97.75,0,0,80,State-Based Violence,11/1/1996,12/23/1996,Myanmar (Burma),Asia,52,1
 Government of Myanmar (Burma) - Civilians,19.68477101,97.23187367,0,6176,0,One-Sided Violence,6/8/1989,10/5/2020,Myanmar (Burma),Asia,11442,26493.34563
 Government of Myanmar (Burma) - DKBA 5,16.88415319,98.04919816,156,11,76,State-Based Violence,8/5/2010,7/8/2015,Myanmar (Burma),Asia,1798,780.9820329
-Government of Myanmar (Burma) - God's Army,19.56944433,98.11037033,26,0,23,State-Based Violence,1/24/2000,1/10/2001,Myanmar (Burma),Asia,352,18274.36296
+Government of Myanmar (Burma) - Gods Army,19.56944433,98.11037033,26,0,23,State-Based Violence,1/24/2000,1/10/2001,Myanmar (Burma),Asia,352,18274.36296
 Government of Myanmar (Burma) - KIO,24.64877445,97.40462261,1504,57,126,State-Based Violence,2/21/1989,7/9/2020,Myanmar (Burma),Asia,11461,4249.459173
 Government of Myanmar (Burma) - KNPP,19.71054633,97.69805733,708,5,4,State-Based Violence,7/5/1989,12/20/2017,Myanmar (Burma),Asia,10395,12175.13789
 Government of Myanmar (Burma) - KNU,17.58063669,97.83574314,2810,186,1267,State-Based Violence,1/1/1989,6/3/2020,Myanmar (Burma),Asia,11476,23748.04641
@@ -805,7 +805,7 @@ Government of Niger - UFRA,17.98521067,9.047297333,63,1,1,State-Based Violence,1
 Government of Nigeria - Ahlul Sunnah Jamaa,11.90501978,12.96907222,59,5,21,State-Based Violence,12/22/2003,10/8/2004,Nigeria,Africa,291,1172.040414
 Government of Nigeria - Civilians,7.104465713,6.623649609,0,4074,23,One-Sided Violence,10/30/1990,12/18/2020,Nigeria,Africa,11007,63939.16195
 Government of Nigeria - IS,12.16401439,13.23044123,8033,351,187,State-Based Violence,5/1/2015,12/30/2020,Nigeria,Africa,2070,4498.314677
-Government of Nigeria - Jama'atu Ahlis Sunna Lidda'awati wal-Jihad,11.49441942,12.8345399,10832,568,1587,State-Based Violence,6/9/2009,12/28/2020,Nigeria,Africa,4220,14267.31195
+Government of Nigeria - Jamaatu Ahlis Sunna Liddaawati wal-Jihad,11.49441942,12.8345399,10832,568,1587,State-Based Violence,6/9/2009,12/28/2020,Nigeria,Africa,4220,14267.31195
 Government of Nigeria - NDPVF,4.775589333,6.876796333,16,6,45,State-Based Violence,6/4/2004,4/27/2009,Nigeria,Africa,1788,95.55316225
 Government of North Macedonia - UCK,42.07162524,21.33850953,64,11,0,State-Based Violence,1/11/2000,8/17/2001,"Macedonia, FYR",Europe,584,107.1216484
 Government of Pakistan - BLA,28.61660487,67.00219254,448,33,83,State-Based Violence,6/25/2004,11/23/2018,Pakistan,Asia,5264,15870.06133
@@ -976,7 +976,7 @@ Habar Gidir clan (Hawiye) - Xawaadle clan (Hawiye),3.1950243,45.3695035,8,0,59,N
 Hadji Faizal Abdulkarim clan - Hadji Masir Ahalul clan,6.346667,121.968889,0,0,30,Non-State Violence,7/7/1998,7/13/1998,Philippines,Asia,6,1
 Hamar (Ethiopia) - Nyangatom ,5.4783025,36.5574865,3,0,61,Non-State Violence,3/1/1997,12/31/2003,Ethiopia,Africa,2496,4.05E-08
 Hamar - Kababish,13.25,28.825,0,0,53,Non-State Violence,4/1/2017,4/2/2017,Sudan,Africa,1,0.010011048
-Hamar - Ma'aliyah,11.33008,26.90039329,49,1,53,Non-State Violence,12/5/2013,6/28/2017,Sudan,Africa,1301,1631.774018
+Hamar - Maaliyah,11.33008,26.90039329,49,1,53,Non-State Violence,12/5/2013,6/28/2017,Sudan,Africa,1301,1631.774018
 Hamas - Civilians,31.7771633,34.82740043,0,509,6,One-Sided Violence,12/14/1990,12/9/2018,Israel,Middle East,10222,352.0193224
 Hamas - Jund Ansar Allah ,31.287004,34.259525,23,0,5,Non-State Violence,8/14/2009,8/15/2009,Israel,Middle East,1,1
 Han Chinese - Uighur,36.01856233,92.387838,146,11,30,Non-State Violence,6/26/2009,7/7/2009,China,Asia,11,390360.7789
@@ -1005,7 +1005,7 @@ Hezbollah - SLA,33.37174339,35.50757094,265,23,5,Non-State Violence,10/24/1989,5
 "High Council of Afghanistan Islamic Emirate, IS - Taleban",32.70276967,67.0345505,56,0,0,Non-State Violence,11/4/2015,11/11/2015,Afghanistan,Asia,7,18.28052686
 Hindus (India) - Muslims (India),24.00251226,77.92419157,193,2,3002,Non-State Violence,3/1/1989,2/28/2020,India,Asia,11321,56900.82054
 Hizb-i Islami-yi Afghanistan - Hizb-i Wahdat,34.531094,69.162796,25,0,0,Non-State Violence,7/9/1994,7/9/1994,Afghanistan,Asia,0,1
-Hizb-i Islami-yi Afghanistan - Jam'iyyat-i Islami-yi Afghanistan,35.76393,69.10600233,66,0,338,Non-State Violence,5/4/1989,2/28/2007,Afghanistan,Asia,6509,22354.93692
+Hizb-i Islami-yi Afghanistan - Jamiyyat-i Islami-yi Afghanistan,35.76393,69.10600233,66,0,338,Non-State Violence,5/4/1989,2/28/2007,Afghanistan,Asia,6509,22354.93692
 Hizb-i Islami-yi Afghanistan - Jamiat-ul-Dawa,34.88966667,71.12837467,0,11,40,Non-State Violence,8/21/1991,11/2/1991,Afghanistan,Asia,73,1.425305899
 Hizb-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,34.73720567,69.0838735,29,0,206,Non-State Violence,12/27/1993,3/3/1996,Afghanistan,Asia,797,1578.47317
 Hizb-i Islami-yi Afghanistan - Taleban,33.90374597,68.33846721,151,20,97,Non-State Violence,10/10/1994,1/2/2017,Afghanistan,Asia,8120,10314.44338
@@ -1062,7 +1062,7 @@ IS - Shabab al-Tawhid wa al-Aqiyda,31.208924,16.588661,26,22,37,Non-State Violen
 IS - Southern Front,33.14605867,36.66513187,65,2,15,Non-State Violence,12/17/2014,3/30/2018,Syria,Middle East,1199,2179.310609
 IS - Taleban,34.73522639,68.68332474,760,47,637,Non-State Violence,2/2/2015,11/11/2020,Afghanistan,Asia,2109,7843.117418
 IS - Yan Gora,11.60654973,12.69285337,207,0,20,Non-State Violence,4/3/2015,12/16/2020,Nigeria,Africa,2084,1546.315963
-"IS - al-Qa'qa Brigade, Army of Ahl al-Sunni wal Jamaa , Army of al-Ikhlas, Army of Maoata al-Islami, Authenticity and Development Front, Bayareq al-Shaaitat , Islamic Front, Jabhat Fateh al-Sham, Jaish al-Muhajireen wal-Ansar, Liwa al-Qadisiya",35.21061892,40.30836214,329,36,43,Non-State Violence,4/30/2014,10/18/2014,Syria,Middle East,171,482.8204006
+"IS - al-Qaqa Brigade, Army of Ahl al-Sunni wal Jamaa , Army of al-Ikhlas, Army of Maoata al-Islami, Authenticity and Development Front, Bayareq al-Shaaitat , Islamic Front, Jabhat Fateh al-Sham, Jaish al-Muhajireen wal-Ansar, Liwa al-Qadisiya",35.21061892,40.30836214,329,36,43,Non-State Violence,4/30/2014,10/18/2014,Syria,Middle East,171,482.8204006
 "IS, Jabhat Fateh al-Sham - Jabhat al-Akrad",36.1335095,37.3269395,28,27,2,Non-State Violence,7/28/2013,7/31/2013,Syria,Middle East,3,3.00E-09
 "IS, Jabhat Fateh al-Sham - PYD",36.44006231,39.76454344,259,10,8,Non-State Violence,1/25/2013,2/28/2014,Syria,Middle East,399,2339.117439
 "IS, Syrian insurgents - Civilians",35.65315059,36.11597686,0,207,0,One-Sided Violence,8/4/2013,8/18/2013,Syria,Middle East,14,4.919477038
@@ -1107,11 +1107,11 @@ Jalisco Cartel New Generation - Nueva Plaza Cartel,20.61906375,-103.3501872,12,5
 Jalisco Cartel New Generation - Santa Rosa de Lima Cartel,20.71914688,-101.1655571,34,37,9400,Non-State Violence,1/1/2018,12/31/2020,Mexico,Americas,1095,473.2296865
 Jalisco Cartel New Generation - Sinaloa Cartel,29.90341897,-113.2980425,54,34,10897,Non-State Violence,1/1/2015,12/30/2020,Mexico,Americas,2190,200586.3539
 Jalwau Dinka - Thiyic Dinka,7.6296435,28.9121285,20,0,89,Non-State Violence,12/16/2017,3/4/2018,South Sudan,Africa,78,183.2072581
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,36.10525191,66.69296346,130,23,264,Non-State Violence,12/8/1992,3/17/2017,Afghanistan,Asia,8865,4419.242411
-Jam'iyyat-i Islami-yi Afghanistan - Mahaz-i Milli-yi Islami-yi Afghanistan ,36.726131,68.865189,0,70,30,Non-State Violence,2/2/1996,2/3/1996,Afghanistan,Asia,1,1
-Jam'iyyat-i Islami-yi Afghanistan - Shura-yi Nazar-i Shomali,36.3763428,69.1215616,8,0,35,Non-State Violence,12/24/1995,3/29/2000,Afghanistan,Asia,1557,1700.95435
-Jama'atu Ahlis Sunna Lidda'awati wal-Jihad - Civilians,11.38425361,12.95573906,0,10076,64,One-Sided Violence,7/26/2009,12/28/2020,Nigeria,Africa,4173,11819.32262
-Jama'atu Ahlis Sunna Lidda'awati wal-Jihad - Yan Gora,11.66858273,13.21269606,652,18,77,Non-State Violence,7/25/2013,5/18/2020,Nigeria,Africa,2489,2395.826955
+Jamiyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,36.10525191,66.69296346,130,23,264,Non-State Violence,12/8/1992,3/17/2017,Afghanistan,Asia,8865,4419.242411
+Jamiyyat-i Islami-yi Afghanistan - Mahaz-i Milli-yi Islami-yi Afghanistan ,36.726131,68.865189,0,70,30,Non-State Violence,2/2/1996,2/3/1996,Afghanistan,Asia,1,1
+Jamiyyat-i Islami-yi Afghanistan - Shura-yi Nazar-i Shomali,36.3763428,69.1215616,8,0,35,Non-State Violence,12/24/1995,3/29/2000,Afghanistan,Asia,1557,1700.95435
+Jamaatu Ahlis Sunna Liddaawati wal-Jihad - Civilians,11.38425361,12.95573906,0,10076,64,One-Sided Violence,7/26/2009,12/28/2020,Nigeria,Africa,4173,11819.32262
+Jamaatu Ahlis Sunna Liddaawati wal-Jihad - Yan Gora,11.66858273,13.21269606,652,18,77,Non-State Violence,7/25/2013,5/18/2020,Nigeria,Africa,2489,2395.826955
 Jamaat Jund al-Sahaba - Civilians,33.586185,44.2051144,0,149,7,One-Sided Violence,3/10/2005,9/23/2006,Iraq,Middle East,562,11176.94612
 Janjaweed  - Civilians,12.97807742,23.73358457,0,3048,627,One-Sided Violence,1/1/2001,9/19/2010,Sudan,Africa,3548,6761.841334
 Janjaweed  - JEM,13,23,186,0,0,Non-State Violence,11/26/2003,11/26/2003,Sudan,Africa,0,1
@@ -1229,8 +1229,8 @@ MPIGO - Civilians,6.885702167,-7.793724833,0,70,0,One-Sided Violence,12/2/2002,4
 MQM - MQM-H,24.86,67.01,48,13,218,Non-State Violence,6/19/1991,10/31/1998,Pakistan,Asia,2691,0
 MRTA - Sendero Luminoso,-11.44735,-75.272298,15,0,52,Non-State Violence,2/19/1989,10/21/1991,Peru,Americas,974,7220.520426
 MTA - UWSA,20.9991058,98.29893,429,4,1200,Non-State Violence,2/1/1990,9/21/1995,Myanmar (Burma),Asia,2058,25193.96758
-Ma'aliyah - Rizeigat Baggara,11.53178692,26.50545124,837,0,256,Non-State Violence,5/19/2002,7/22/2017,Sudan,Africa,5543,6054.270903
-Ma'aliyah - Zaghawa,11.5833335,26.0666665,1,41,0,Non-State Violence,10/1/2008,4/7/2016,Sudan,Africa,2745,0.000915424
+Maaliyah - Rizeigat Baggara,11.53178692,26.50545124,837,0,256,Non-State Violence,5/19/2002,7/22/2017,Sudan,Africa,5543,6054.270903
+Maaliyah - Zaghawa,11.5833335,26.0666665,1,41,0,Non-State Violence,10/1/2008,4/7/2016,Sudan,Africa,2745,0.000915424
 Mahadi - Rizeigat Abbala,13.0067545,23.657487,0,0,26,Non-State Violence,4/26/2016,6/22/2016,Sudan,Africa,57,0.001794609
 "Mahariya, Mima - Masalit ",13.07175,22.110391,60,0,24,Non-State Violence,7/25/2020,7/25/2020,Sudan,Africa,0,1
 Majerteen subclan (Darod) - Awramale subclan (Darod),-0.358173,42.545365,0,20,39,Non-State Violence,2/2/2020,4/2/2020,Somalia,Africa,60,0
@@ -1319,7 +1319,7 @@ Opponents of Morsi - Supporters of Morsi,30.33381271,31.01906525,8,4,120,Non-Sta
 Opponents of al-Assad - Supporters of al-Assad,34.726818,36.723391,0,0,30,Non-State Violence,7/17/2011,7/17/2011,Syria,Middle East,0,1
 Orma - Pokomo,-2.100085111,40.02268361,136,0,58,Non-State Violence,3/11/2012,6/16/2016,Kenya,Africa,1558,261.5385146
 "Orma, Wardei - Pokomo",-1.5,39.5,0,7,59,Non-State Violence,3/3/2001,12/8/2001,Kenya,Africa,280,0
-"Oromo - Dorze, Gamo, Guraghe, Silt'e, Wolayta",9.02497,38.74689,0,0,32,Non-State Violence,9/14/2018,9/17/2018,Ethiopia,Africa,3,0
+"Oromo - Dorze, Gamo, Guraghe, Silte, Wolayta",9.02497,38.74689,0,0,32,Non-State Violence,9/14/2018,9/17/2018,Ethiopia,Africa,3,0
 "Oromo - Gamo, Guraghe",9.072279,38.664689,0,0,26,Non-State Violence,9/15/2018,9/16/2018,Ethiopia,Africa,1,1
 Oromo - Somali,8.281194784,41.1390377,285,3,249,Non-State Violence,7/7/1991,11/19/2019,Ethiopia,Africa,10362,17377.40735
 PAC - Civilians,-30.20247892,26.92340754,0,62,0,One-Sided Violence,10/9/1990,3/13/1994,South Africa,Africa,1251,37083.28344
@@ -1378,8 +1378,8 @@ Republic of Bosnia-Herzegovina - Serbian Republic of Bosnia-Herzegovina,44.14396
 Republic of Croatia - SAO Krajina,44.9950408,16.19333332,146,24,19,Non-State Violence,6/26/1991,9/16/1991,Serbia (Yugoslavia),Europe,82,2766.689756
 Republic of Croatia - Serbian Republic of Krajina,44.5703414,17.90561878,365,152,6,Non-State Violence,4/4/1992,4/26/1992,Serbia (Yugoslavia),Europe,22,1665.882905
 Republic of Georgia - Republic of South Ossetia,42.14930017,44.15636994,34,0,53,Non-State Violence,1/19/1991,12/1/1991,Russia (Soviet Union),Europe,316,3577.20721
-Republic of Somaliland - SNM - 'Calan cas' ,9.9798615,45.2766665,0,0,2500,Non-State Violence,1/10/1992,8/31/1992,Somalia,Africa,234,0.000127477
-Rer Ahmad subclan (Hawiye) - Hawarsame Rer Hasan and Habar Ya'qub subclan of Marehan clan (Darod),3.90959375,41.8187125,25,6,38,Non-State Violence,5/8/2004,6/2/2004,Kenya,Africa,25,28.36742145
+Republic of Somaliland - SNM - Calan cas ,9.9798615,45.2766665,0,0,2500,Non-State Violence,1/10/1992,8/31/1992,Somalia,Africa,234,0.000127477
+Rer Ahmad subclan (Hawiye) - Hawarsame Rer Hasan and Habar Yaqub subclan of Marehan clan (Darod),3.90959375,41.8187125,25,6,38,Non-State Violence,5/8/2004,6/2/2004,Kenya,Africa,25,28.36742145
 Rer Liban subclan of Habr Awal (Issaq) - Rer Samatar subclan of Habr Awal (Issaq),9.21694,43.58778,0,0,100,Non-State Violence,6/1/1992,6/30/1992,Ethiopia,Africa,29,1
 Rizeigat Abbala - Terjam,11.85382929,24.76666664,244,0,138,Non-State Violence,1/6/2007,8/14/2007,Sudan,Africa,220,991.2622259
 Rizeigat Abbala - Zaghawa,13.27590671,24.15548386,137,0,60,Non-State Violence,9/1/1996,10/17/2017,Sudan,Africa,7716,3815.723697
@@ -1408,8 +1408,8 @@ SRF - Subol Al-Salam Brigade,26.21004967,22.75175967,44,0,0,Non-State Violence,2
 SSDF - Civilians,7.646179944,31.61018406,0,2308,0,One-Sided Violence,9/1/1991,3/31/1993,Sudan,Africa,577,6616.314036
 SSDF - SSUM/A ,9.935376889,30.46898511,206,0,284,Non-State Violence,1/1/1998,10/28/1999,Sudan,Africa,665,27711.24041
 SSDF - USC/SNA,6.769722,47.430833,0,0,200,Non-State Violence,1/8/1993,1/8/1993,Somalia,Africa,0,1
-Sa'ad subclan of Habar Gidir clan (Hawiye) - Saleban Abdalla subclan of Surre clan (Dir),6.136701375,48.31937513,50,0,75,Non-State Violence,1/13/2002,3/17/2008,Somalia,Africa,2255,511.2806413
-Sa'ad subclan of Habar Gidir clan (Hawiye) - Suleiman subclan of Habar Gidir clan (Hawiye),5.764964097,47.13595887,6,11,427,Non-State Violence,3/26/1998,8/28/2011,Somalia,Africa,4903,4352.107795
+Saad subclan of Habar Gidir clan (Hawiye) - Saleban Abdalla subclan of Surre clan (Dir),6.136701375,48.31937513,50,0,75,Non-State Violence,1/13/2002,3/17/2008,Somalia,Africa,2255,511.2806413
+Saad subclan of Habar Gidir clan (Hawiye) - Suleiman subclan of Habar Gidir clan (Hawiye),5.764964097,47.13595887,6,11,427,Non-State Violence,3/26/1998,8/28/2011,Somalia,Africa,4903,4352.107795
 Sabaneta - Pavilion I gang - Sabaneta - Re-education sector gang,10.63167,-71.64056,0,0,127,Non-State Violence,1/3/1994,1/3/1994,Venezuela,Americas,0,1
 Salafia Jihadia - Civilians,33.59,-7.61,0,34,0,One-Sided Violence,5/16/2003,9/11/2003,Morocco,Africa,118,0
 Samburu - Somali,0.783333333,38.361111,0,0,49,Non-State Violence,6/1/1996,1/31/2009,Kenya,Africa,4627,617.5539764
@@ -1495,7 +1495,7 @@ Wagia subclan of Takima - Wayai subclan of Takima,-6.0625,142.8562,25,0,0,Non-St
 Wanhihem community - Wanikade community,6.653982,8.549387,0,0,150,Non-State Violence,6/28/2017,7/3/2017,Nigeria,Africa,5,1
 Yan Sakai - Civilians,11.899403,6.578631833,0,55,0,One-Sided Violence,1/1/2018,10/12/2020,Nigeria,Africa,1015,708.2738149
 Zaire self-defense group - Civilians,1.558791,30.0089074,0,39,0,One-Sided Violence,6/30/2020,10/8/2020,DR Congo (Zaire),Africa,100,24.34580816
-al-Gama'a al-Islamiyya - Civilians,27.61740264,30.9919018,0,207,0,One-Sided Violence,6/8/1992,4/5/1998,Egypt,Middle East,2127,6120.718221
+al-Gamaa al-Islamiyya - Civilians,27.61740264,30.9919018,0,207,0,One-Sided Violence,6/8/1992,4/5/1998,Egypt,Middle East,2127,6120.718221
 al-Mahdi Army - Civilians,33.31129456,44.529783,0,120,4,One-Sided Violence,2/24/2006,11/23/2007,Iraq,Middle East,637,5581.543886
 al-Qaida  - Civilians,29.97505622,32.02797433,0,2904,1,One-Sided Violence,9/11/2001,3/20/2012,United States of America,Americas,3843,2746026.248
 al-Tawhid Brigade - PYD,36.44698567,36.97333458,35,0,12,Non-State Violence,5/1/2013,8/12/2013,Syria,Middle East,103,181.308075

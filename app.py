@@ -22,13 +22,14 @@ async def main():
             # Create unique ID for each marker
             idd = 'event' + str(id_counter)
             id_counter += 1
-            lat += row['location_lat']
-            long += row['location_long']
+            lat += row['latitude']
+            long += row['longitude']
+            print(index)
             # Create the marker and its pop-up for each event
             markers += "var {idd} = L.marker([{latitude}, {longitude}]);\
-                        {idd}.addTo(map).bindPopup('Event Name: {name}<br>Event Scale: {scale}');".format(idd=idd, latitude=row['location_lat'],\
-                                                                                     longitude=row['location_long'], \
-                                                                                         name = row['name'], \
+                        {idd}.addTo(map).bindPopup('Event Name: {name}<br>Event Scale: {scale}');\r".format(idd=idd, latitude=row['latitude'],\
+                                                                                     longitude=row['longitude'], \
+                                                                                         name = row['dyad_name'], \
                                                                                              scale = row['scale'])
         
         # # Render the page with the map
