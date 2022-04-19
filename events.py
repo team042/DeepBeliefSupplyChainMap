@@ -9,7 +9,16 @@ import requests
 from geopy.distance import geodesic
 
 def get_conflicts():
-    conflicts = pd.DataFrame(columns={'id', 'relid', 'year', 'active_year', 'code_status', 'type_of_violence', 'conflict_dset_id', 'conflict_new_id', 'conflict_name', 'dyad_dset_id', 'dyad_new_id', 'dyad_name', 'side_a_dset_id', 'side_a_new_id', 'side_a', 'side_b_dset_id', 'side_b_new_id', 'side_b', 'number_of_sources', 'source_article', 'source_office', 'source_date', 'source_headline', 'source_original', 'where_prec', 'where_coordinates', 'where_description', 'adm_1', 'adm_2', 'latitude', 'longitude', 'geom_wkt', 'priogrid_gid', 'country', 'country_id', 'region', 'event_clarity', 'date_prec', 'date_start', 'date_end', 'deaths_a', 'deaths_b', 'deaths_civilians', 'deaths_unknown', 'best', 'high', 'low', 'gwnoa', 'gwnob'})
+    conflicts = pd.DataFrame(columns={'id', 'relid', 'year', 'active_year', 'code_status', 'type_of_violence', 
+                                      'conflict_dset_id', 'conflict_new_id', 'conflict_name', 'dyad_dset_id', 
+                                      'dyad_new_id', 'dyad_name', 'side_a_dset_id', 'side_a_new_id', 'side_a', 
+                                      'side_b_dset_id', 'side_b_new_id', 'side_b', 'number_of_sources', 'source_article', 
+                                      'source_office', 'source_date', 'source_headline', 'source_original', 'where_prec', 
+                                      'where_coordinates', 'where_description', 'adm_1', 'adm_2', 'latitude', 'longitude', 
+                                      'geom_wkt', 'priogrid_gid', 'country', 'country_id', 'region', 'event_clarity', 
+                                      'date_prec', 'date_start', 'date_end', 'deaths_a', 'deaths_b', 'deaths_civilians', 
+                                      'deaths_unknown', 'best', 'high', 'low', 'gwnoa', 'gwnob'})
+    
     url = "https://ucdpapi.pcr.uu.se/api/gedevents/21.1?pagesize=1000&page=0"
 
     while url != "":
@@ -48,9 +57,9 @@ def get_conflicts():
     conflicts_final.loc[conflicts_final["type_of_violence"] == 2, "type_of_violence"] = 'Non-State Violence'
     conflicts_final.loc[conflicts_final["type_of_violence"] == 3, "type_of_violence"] = 'One-Sided Violence'
     conflicts_final['Total_deaths'] = conflicts_final['deaths_a'] + conflicts_final['deaths_b']
-    conflicts_final.rename(columns={'latitude_y': 'latitude', 'longitude_y': 'longitude'})
+    conflicts_final = conflicts_final.rename(columns={'latitude_y': 'latitude', 'longitude_y': 'longitude'})
     conflicts_final = conflicts_final[['dyad_name', 'latitude', 'longitude', 'Total_deaths', 
                                    'deaths_civilians', 'deaths_unknown', 'type_of_violence', 'date_start', 'date_end',
                                    'country', 'region', 'conflict_duration_days', 'scale']]
     
-    return conflicts_final
+    conflicts_final.to_csv('events.csv', index=False)

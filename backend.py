@@ -1,6 +1,6 @@
 import pandas as pd
 def get_supply_chain():
-    supplyChain = pd.read_csv('supplyChain.csv')
+    supplyChain = pd.read_csv('sc_data_2019.csv')
     return supplyChain
   
 def get_events():
