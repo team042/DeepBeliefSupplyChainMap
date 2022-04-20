@@ -89,7 +89,7 @@ class sc_dataGetter:
         master_df = pd.DataFrame()
         # Iterate over all periods, retreiving data, writing incremental backup file, and appending to master dataset
         for y in period_range:
-            self.sc_data  = self.update_trade(y)
+            self.update_trade(y)
             backup_file_path = ".\\sc_data_{}.csv".format(y)
             try:
                 os.remove(backup_file_path)
