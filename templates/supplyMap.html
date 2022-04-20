@@ -3,15 +3,31 @@
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <!-- sourcing add-ons for jquery-->
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
+    <script src="../leaflet-ant-path-bower-master/dist/leaflet-ant-path.js"></script>
+    
 </head>
 <body>
-    <form method="post" action=".">
-        <label><p>Event Scale Minimum</p></label>
+    <form method="post" action="." id ="filters">
+        <label>Event Scale Minimum</label>
         <input name="scaleMin">
+        
+        <p>
+            <label for="amount"> Test:</label>
+            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+        </p>
+        <div id ='slider'></div>
 
-        <label><p>Commodity</p></label>
+        <label>Commodity</label>
         <input name="commodity">
 
+        <label>Value</label>
+        <input name="value">
         <input type="submit" value="Update Filters" id="button">
     </form>
     <div id="map"></div>
@@ -20,15 +36,17 @@
         var map = L.map('map').setView([{{lat}}, {{lon}}], 4);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors'}).addTo(map);
         map.options.minZoom = 3;
-        var southWest = L.latLng(-89.98155760646617, -180),
-        northEast = L.latLng(89.99346179538875, 180);
+        var southWest = L.latLng(-89.98155760646617, -220),
+        northEast = L.latLng(89.99346179538875, 220);
         var bounds = L.latLngBounds(southWest, northEast);
         map.setMaxBounds(bounds);
         map.on('drag', function() {
             map.panInsideBounds(bounds, { animate: false });
         });
-        
+        var markers = L.markerClusterGroup();
         {{markers|safe}}
+        map.addLayer(markers)
+
     </script>
 </body>
 </html>
