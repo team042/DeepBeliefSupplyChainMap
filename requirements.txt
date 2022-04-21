@@ -9,4 +9,5 @@ geopy==2.2.0
 networkx==2.8
 numpy==1.22.3
 pandas==1.4.2
-torch=1.10
+torch==1.10
+requests==2.27.1

@@ -96,7 +96,7 @@ class sc_dataGetter:
             except OSError:
                 pass
             self.sc_data.to_csv(backup_file_path)
-            master_df = master_df.append(self.sc_data)
+            master_df = pd.concat([master_df,self.sc_data])
         # Write out complete assembled dataset (all periods)
         try:
             os.remove(out_file_path)
@@ -435,6 +435,7 @@ class sc_dataGetter:
                 except requests.exceptions.JSONDecodeError:
                     print('Exceeded rate limit, waiting 1 hour.')
                     time.sleep(3600)
+        if 'validation' not in jsondata.keys(): return None
         if (jsondata['validation']['status']['name'] != "Ok") | (jsondata['dataset'] == []): return None
         tradedata = pd.DataFrame(jsondata['dataset'])[['cmdCode','TradeValue']]
         trade_amounts = self._commodities.merge(tradedata, how='left', left_on='E_COMMODITY', right_on='cmdCode')[['E_COMMODITY','TradeValue']].fillna(0.0)
