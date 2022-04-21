@@ -66,7 +66,7 @@ def importData(EventFile='events.csv',SupplyFile='sc_data_sample.csv',SeverityVa
     SumofConflictDuration.append(DurationRow)
    SupplyWithDummies['sumofSeverity']=sumofSeverity
    SupplyWithDummies['SumofConflictDuration']=SumofConflictDuration
-   combinedyData=SupplyWithDummies['LowTrade']
+   combinedyData=SupplyWithDummies['lowTrade']
    combinedXData=SupplyWithDummies[['sumofSeverity','SumofConflictDuration','Year','routeBeginLat','routeBeginLong']]
    EarlierYearX=combinedXData[combinedXData['Year']<Currentyear].to_numpy()
    CurrentYearX=combinedXData[combinedXData['Year']==Currentyear].to_numpy()
