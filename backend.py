@@ -39,10 +39,13 @@ def importData(EventFile='events.csv',SupplyFile='sc_data_sample.csv',SeverityVa
    LowTrade=pd.DataFrame()
    LowTrade['lowTrade']=MeanSummedTrade.subtract(StandardDeviationSummedTrade*SeverityValue)
    LowTrade['route_id']=IndexGrouped
+   lowTrade=[]
    for index, row in SupplyWithDummies.iterrows():
     routeID=row['route_ID']
     Below95=row['summedTrade']-(LowTrade[LowTrade['route_id']==routeID]['lowTrade'])
-    row['LowTrade'] = 1 * (Below95< 0)
+    lowTrade.append(1 * (Below95< 0))
+   SupplyWithDummies['lowTrade']=lowTrade
+   print(SupplyWithDummies)
    CurrentYearSupply=SupplyWithDummies[SupplyWithDummies['Year']==Currentyear]
    CurrentYearRoutes=CurrentYearSupply[['route_ID','route_points']]
    CurrentYearRoutes['product_code']=CurrentYearSupply[col_list].idxmax(axis=1)
@@ -84,8 +87,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.autograd import Variable
-from torchvision import datasets, transforms
-from torchvision.utils import make_grid , save_image
 batch_size=64
 train_loader = torch.utils.data.DataLoader((x_dataTrain,y_dataTrain),batch_size=batch_size)
 class RBM(nn.Module):
