@@ -25,10 +25,16 @@ async def main():
         lat += row['latitude']
         long += row['longitude']
         # Create the marker and its pop-up for each event
-        markers += "var {idd} = L.marker([{latitude}, {longitude}])\r   {idd}.bindPopup('Event Name: {name}<br>Event Scale: {scale}');\r  markers.addLayer({idd});\r  ".format(idd=idd, latitude=row['latitude'], longitude=row['longitude'], name = row['dyad_name'], scale = row['scale'])
+        markers += "var {idd} = L.marker([{latitude}, {longitude}])\r   {idd}.bindPopup('Event Name: {name}<br>Event Scale: {scale}<br>Start date: {sd}<br>End date: {ed}');\r  markers.addLayer({idd});\r  ".format(idd=idd, latitude=row['latitude'], longitude=row['longitude'], name = row['dyad_name'], scale = row['scale'], sd = row['date_start'], ed = row['date_end'])
     
+    # route_counter = 0
+    # for index, row in supplyChain.iterrows():
+    #     idd = 'route' * str(route_counter)
+    #     route_counter += 1
+    #     paths += "var {idd} = {latlng};\r  paths.addLayer(L.polyline.antPath({idd}));\r     ".format(idd=idd, latlng = row['route_points'])
+
     # # Render the page with the map
-    return render_template('supplyMap.html', markers=markers, lat=lat/id_counter, lon=long/id_counter)
+    return render_template('supplyMap.html', markers=markers, lat=lat/id_counter, lon=long/id_counter)#, paths=paths)
     # 
     # else:
     #     # Render the input form

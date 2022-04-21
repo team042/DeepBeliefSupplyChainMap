@@ -1,7 +1,9 @@
 import pandas as pd
 def get_supply_chain():
-    supplyChain = pd.read_csv('sc_data_2019.csv')
-    return supplyChain
+    sc_data = pd.read_csv('sc_data.csv')
+    sc_data = sc_data.drop(columns=['Unnamed: 0'])
+    sc_data['route_points'] = sc_data.apply(lambda row: [[p.split(', ')[0],p.split(', ')[1]] for p in row['route_points'][2:-2].split('], [')], axis=1)
+    return sc_data
 
 def get_events():
     events = pd.read_csv('events.csv')
