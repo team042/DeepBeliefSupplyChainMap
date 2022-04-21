@@ -145,7 +145,7 @@ for epoch in range(10):
 
 # List of Route #, Lat and Long List, Each good predicted to be harmed 
 
-def MatchToRoutes(predictedData=v1,routes=CurrentYearRoutes,goodLookupFile=file):
+def MatchToRoutes(predictedData=v1,routes=CurrentYearRoutes,goodLookupFile='HS6_Lookup.csv'):
     import numpy as np
     import pandas 
     GoodsDataFrame=pd.read_csv(goodLookupFile)
