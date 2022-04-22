@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
-    <!-- <script src="../leaflet-ant-path-bower-master/dist/leaflet-ant-path.js"></script> -->
+    <script src="../static/leaflet-ant-path.js"></script>
     
 </head>
 <body>
@@ -46,6 +46,7 @@
         var markers = L.markerClusterGroup();
         {{markers|safe}}
         map.addLayer(markers)
+        
 
     </script>
 </body>
