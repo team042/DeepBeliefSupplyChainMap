@@ -109,6 +109,45 @@ class sc_dataGetter:
         return
 
 
+    def data_csv_to_geojson(csv_path: str=".\\sc_data.csv", out_file_path: str=".\\sc_data_geojson.geojson") -> None:
+        sc_data = pd.read_csv(csv_path)
+        sc_data = sc_data.drop(columns=['Unnamed: 0'])
+        sc_data_json_features = []
+        attr_cols = ['route_ID','orig_ISO','dest_ISO','weight','route_points','route_type']
+        for _,row in sc_data.iterrows():
+            qtys = {}
+            for (columnName, columnData) in row.iteritems():
+                if columnName in attr_cols: continue
+                qtys[columnName] = columnData
+            gj_feature = {"type": "Feature",
+                "properties": {"route_ID": row['route_ID'],
+                    "orig_ISO": row['orig_ISO'],
+                    "dest_ISO": row['dest_ISO'],
+                    "weight": row['weight'],
+                    "route_type": row['route_type'],
+                    "period": row['period'],
+                    "trade_goods": qtys},
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [[p.split(', ')[0],p.split(', ')[1]] for p in row['route_points'][2:-2].split('], [')]
+                    }
+                }
+            sc_data_json_features.append(gj_feature)
+
+        sc_data_json = {"type":"FeatureCollection",
+            "properties":{"description": "Geometry for trade routes"},
+            "features": sc_data_json_features
+            }
+
+        try:
+            os.remove(out_file_path)
+        except OSError:
+            pass
+        with open(out_file_path, 'w') as f:
+            f.write(str(sc_data_json))
+        return
+
+
     def build_routes(self) -> None:
         """Loads in all static route data and builds geographic routes"""
         ## Recommend adding functionality to optionally load the data from "backup" files to speed up route building
