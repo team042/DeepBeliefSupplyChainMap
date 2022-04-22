@@ -130,7 +130,7 @@ class sc_dataGetter:
                     "trade_goods": qtys},
                 "geometry": {
                     "type": "LineString",
-                    "coordinates": [[p.split(', ')[0],p.split(', ')[1]] for p in row['route_points'][2:-2].split('], [')]
+                    "coordinates": [[float(p.split(', ')[0]),float(p.split(', ')[1])] for p in row['route_points'][2:-2].split('], [')]
                     }
                 }
             sc_data_json_features.append(gj_feature)
