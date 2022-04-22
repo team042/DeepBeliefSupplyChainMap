@@ -12,6 +12,7 @@ import networkx as nx
 import requests
 import time
 import os
+import json
 
 # Need these static route data files; they are provided in the Git repo
 BORDERS = ".\\Data\\EEZ_land_union_v3_202003\\EEZ_Land_v3_202030.shp"
@@ -144,7 +145,7 @@ class sc_dataGetter:
         except OSError:
             pass
         with open(out_file_path, 'w') as f:
-            f.write(str(sc_data_json))
+            json.dump(sc_data_json, f)
         return
 
 
