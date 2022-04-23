@@ -281,7 +281,7 @@ class sc_dataGetter:
         sea_routes['weight'] = sea_routes.apply(lambda row: row['trip_count']/row['trade_tot'], axis=1)
         sea_routes['route_points'] = pd.Series([list(tup) for tup in zip(sea_routes['lat'], sea_routes['lon'])])
         sea_routes = sea_routes.groupby('route_ID', as_index=False).agg({'orig_ISO':'first','dest_ISO':'first','weight':'first','route_points':list})
-        sea_routes['route_type'] = 'sea'
+        sea_routes['route_type'] = 'Sea'
         return sea_routes
 
 
