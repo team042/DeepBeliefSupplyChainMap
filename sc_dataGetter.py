@@ -110,16 +110,61 @@ class sc_dataGetter:
         return
 
 
-    def data_csv_to_geojson(csv_path: str=".\\sc_data.csv", out_file_path: str=".\\sc_data_geojson.geojson") -> None:
+    def data_csv_to_geojson(csv_path: str=".\\sc_data.csv", HS6_path: str=".\\HS6_Lookup.csv", out_file_path: str=".\\sc_data_geojson.geojson", lat_lon_order: bool = False) -> None:
+        max_max_qty = 0.0
+        goods_lookup = pd.read_csv(HS6_path)
         sc_data = pd.read_csv(csv_path)
         sc_data = sc_data.drop(columns=['Unnamed: 0'])
         sc_data_json_features = []
-        attr_cols = ['route_ID','orig_ISO','dest_ISO','weight','route_points','route_type']
+        attr_cols = ['route_ID','orig_ISO','dest_ISO','weight','route_points','route_type','period']
+        if lat_lon_order: llo = [0,1] # True for lat/lon, False for lon/lat
+        else: llo = [1,0]
         for _,row in sc_data.iterrows():
             qtys = {}
+            max_good_HS = "000000"
+            max_qty = 0.0
+            tot_qty = 0.0
             for (columnName, columnData) in row.iteritems():
                 if columnName in attr_cols: continue
                 qtys[columnName] = columnData
+                tot_qty += columnData
+                if columnData > max_qty:
+                    max_good_HS = columnName
+                    max_qty = columnData
+            if max_good_HS != "000000":
+                max_good = goods_lookup[goods_lookup['product_code']==int(max_good_HS)]['product_name'].iloc[0]
+            else:
+                max_good = "No Product Info"
+            if tot_qty > max_max_qty: max_max_qty = tot_qty
+            
+            route_points = [[float(p.split(', ')[llo[0]]),float(p.split(', ')[llo[1]])] for p in row['route_points'][2:-2].replace('\'','').split('], [')]
+            if (route_points[0][llo[1]] > 90.0 and route_points[-1][llo[1]] < -70.0 and route_points[-1][llo[0]] < 0.0) \
+                or (route_points[0][llo[1]] > 90.0 and route_points[-1][llo[1]] < -75.0 and route_points[-1][llo[0]] > 0.0) \
+                or (route_points[0][llo[1]] < -70.0 and route_points[0][llo[0]] < 0.0 and route_points[-1][llo[1]] > 90.0) \
+                or (route_points[0][llo[1]] < -75.0 and route_points[0][llo[0]] > 0.0 and route_points[-1][llo[1]] > 90.0):
+                route_points_dup = [[float(p.split(', ')[llo[0]]),float(p.split(', ')[llo[1]])] for p in row['route_points'][2:-2].replace('\'','').split('], [')]
+                for pt in route_points_dup:
+                    if pt[0] > 0.0: pt[0] -= 360.0
+                gj_feature_dup = {"type": "Feature",
+                    "properties": {"route_ID": row['route_ID']+"_dup",
+                        "orig_ISO": row['orig_ISO'],
+                        "dest_ISO": row['dest_ISO'],
+                        "weight": row['weight'],
+                        "route_type": row['route_type'],
+                        "period": row['period'],
+                        "trade_goods": qtys,
+                        "max_good": {"commodity": max_good, "qty": max_qty},
+                        "total_value": tot_qty
+                    },
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": route_points_dup
+                        }
+                    }
+                sc_data_json_features.append(gj_feature_dup)
+                for pt in route_points:
+                    if pt[0] < 0.0: pt[0] += + 360.0
+
             gj_feature = {"type": "Feature",
                 "properties": {"route_ID": row['route_ID'],
                     "orig_ISO": row['orig_ISO'],
@@ -127,16 +172,20 @@ class sc_dataGetter:
                     "weight": row['weight'],
                     "route_type": row['route_type'],
                     "period": row['period'],
-                    "trade_goods": qtys},
+                    "trade_goods": qtys,
+                    "max_good": {"commodity": max_good, "qty": max_qty},
+                    "total_value": tot_qty
+                },
                 "geometry": {
                     "type": "LineString",
-                    "coordinates": [[p.split(', ')[0],p.split(', ')[1]] for p in row['route_points'][2:-2].split('], [')]
+                    "coordinates": route_points
                     }
                 }
             sc_data_json_features.append(gj_feature)
 
         sc_data_json = {"type":"FeatureCollection",
-            "properties":{"description": "Geometry for trade routes"},
+            "properties":{"description": "Geometry for trade routes",
+                "max_route_value": max_max_qty},
             "features": sc_data_json_features
             }
 
